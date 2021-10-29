@@ -12,9 +12,10 @@ public class SecondMain {
         String command = "";
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
             command = bufferedReader.readLine();
-            System.out.println(StringUtils.lowerCase(command));
+
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println(StringUtils.lowerCase(command));
     }
 }

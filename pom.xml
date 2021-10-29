@@ -17,7 +17,6 @@
     <profiles>
         <profile>
             <id>first</id>
-
             <build>
                 <plugins>
                     <!-- Два элемента plugin снизу позволяют собирать Uber Jar -->
@@ -47,7 +46,7 @@
                                 <configuration>
                                     <archive>
                                         <manifest>
-                                            <mainClass>Main</mainClass>
+                                            <mainClass>ru.ibs.tkb.Main</mainClass>
                                         </manifest>
                                     </archive>
                                     <descriptorRefs>
@@ -100,7 +99,7 @@
                                 <configuration>
                                     <archive>
                                         <manifest>
-                                            <mainClass>SecondMain</mainClass>
+                                            <mainClass>ru.ibs.tkb.SecondMain</mainClass>
                                         </manifest>
                                     </archive>
                                     <descriptorRefs>
@@ -162,7 +161,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>Main</mainClass>
+                                    <mainClass>ru.ibs.tkb.Main</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
